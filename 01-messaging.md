@@ -69,6 +69,7 @@ A node:
     - MUST include all the fields annotated with that option.
   - When defining custom messages:
     - SHOULD pick a random `type` to avoid collision with other custom types.
+    - SHOULD pick a `type` that doesn't conflict with other experiments listed in [this issue](https://github.com/lightningnetwork/lightning-rfc/issues/716).
     - SHOULD pick an odd `type` identifiers when regular nodes should ignore the
       additional data.
     - SHOULD pick an even `type` identifiers when regular nodes should reject
